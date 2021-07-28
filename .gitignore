@@ -132,3 +132,8 @@ dmypy.json
 #for secret
 .json
 .txt
+
+#image
+.jpeg
+.png
+.jpg
