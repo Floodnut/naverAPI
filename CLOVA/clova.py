@@ -31,7 +31,7 @@ else:
 
 data = response.json()
 if(data['info']['faceCount']>0):
-    for face in data['face']:
+    for face in data['faces']:
         x = face['roi']['x']
         y = face['roi']['y']
         width = face['roi']['height']
