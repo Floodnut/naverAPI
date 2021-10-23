@@ -11,7 +11,7 @@ with open ('../secret.json','r') as key_file:
 client_id = json_client_id # 개발자센터에서 발급받은 Client ID 값
 client_secret = json_client_secret # 개발자센터에서 발급받은 Client Secret 값
 
-encText = urllib.parse.quote("안녕하세요 bob 여러분")
+encText = urllib.parse.quote("안녕하세요. 여러분")
 
 data = "source=ko&target=en&text=" + encText
 url = "https://openapi.naver.com/v1/papago/n2mt"
